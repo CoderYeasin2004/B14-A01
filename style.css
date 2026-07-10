@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* nav style */
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+a{
+    text-decoration: none;
+    color: #626262;
+}
+.commom-btn, button{
+    background-color: #1D4ED8;
+    color: white;
+    width: 115px;
+    height: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+/* nav style end */
+
+/* header style */
+header{
+    background-image: linear-gradient(to right,rgba(0,0,0,0.9), rgba(0,0,0,0.1)), url('./assets/banner.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.header-container{
+    color: white;
+    text-align: center;
+    display: grid;
+    gap: 15px;
+}
+.header-container button{
+    justify-self: center;
+    margin-top: 53%;
+}
